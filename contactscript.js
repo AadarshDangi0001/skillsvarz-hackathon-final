@@ -9,7 +9,7 @@ const frames = {
 let imgLoaded = 0
 const images = []
 function preloadImg() {
-    for (let i = 0; i <= frames.maxIndex; i++) {
+    for (let i = 1; i <= frames.maxIndex; i++) {
         const imgUrl = `./laptop/frame_${i.toString().padStart(4, "0")}.jpeg`;
 console.log(imgUrl);
 
